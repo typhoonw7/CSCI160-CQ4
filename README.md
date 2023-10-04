@@ -1,1 +1,3 @@
 # CSCI160-CQ4
+For Camelcase problem, since we use loop to iterate through the string s character by character. Therefore, the run time of the problem is a O(n). The space complexity is O(1) which is a constant space, because it use one variable count to keep track on counts of the worlds included in the string. 
+For Correctness and Loop Invitation, since there is a loop inside of a loop. Through the first loop the algorithm is going to run through n numbers of element in the array and its the same for the second loop which it might iterate through the entire element A[j] which will give us a total of O(n^2) for the time. The space complexity of this problem is going to be  O(n) because the code create another array to store the the array of integers and other variables.
